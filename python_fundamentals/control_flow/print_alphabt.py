@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
+result = ""
+
 for letter in "abcdefghijklmnopqrstuvwxyz":
     if letter != "q" and letter != "e":
-        print(letter, end="")
-print()
+        result += "{}".format(letter)
+
+print("{}".format(result))
